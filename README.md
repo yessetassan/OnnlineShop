@@ -9,7 +9,7 @@
 * Maven
 
 ## Структура Архитектуры Backend
-![image](https://github.com/yessetassan/OnnlineShop/assets/139701904/624e85ea-1c12-4eb7-8705-125517b795b2)
+![image](https://github.com/yessetassan/OnnlineShop/assets/139701904/da8d7eb2-fb33-4803-a17b-99a227ae65bc)
 
 * Актульная ссылка : [https://app.diagrams.net/#G15WGVeSNCq2c--7QZHHDzIV60SC69YeoI#%7B%22pageId%22%3A%228JzstBM2QmowrJ6_m3ze%22%7D](https://app.diagrams.net/#G1ngwt68K68v-Gh7mTemjEfo2GnyyDp2cd#%7B%22pageId%22%3A%22Cyu2lcYC-1fTIwys9viD%22%7D)
 
