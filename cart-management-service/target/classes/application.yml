@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cart-management-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
