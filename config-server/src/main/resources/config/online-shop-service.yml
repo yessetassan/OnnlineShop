@@ -1,0 +1,49 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/fix
+    username: postgres
+    password: Qasaqayj7
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 'yesset.assan@gmail.com'
+    password: tnvqyiriqnefkzwt
+    properties:
+      mail.smtp:
+        auth: true
+        starttls:
+          enable: true
+  liquibase:
+    change-log: db/main-data.xml
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
